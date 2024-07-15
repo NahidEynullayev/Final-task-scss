@@ -1,0 +1,105 @@
+@import "../colors";
+@import "../font";
+@import "../global";
+@import "../mixin";
+@import "../size";
+
+footer {
+  background: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
+
+  width: 100%;
+  height: 539.45px;
+  //   border: 1px solid blue;
+  @include dynamic-flex-column($jc: flex-start);
+
+  div.list-container {
+    height: 80%;
+    width: 90%;
+    // border: 1px solid red;
+
+    @include dynamic-flex-row($jc: space-between);
+
+    dl {
+      @include dynamic-flex-column($ai: flex-start);
+      margin-top: 50px;
+      gap: 20px;
+
+      dt {
+        font-family: $Inter;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $white;
+      }
+
+      dd {
+        font-family: $Inter;
+        font-size: 1rem;
+        color: #e6e6e6;
+        font-weight: 200;
+      }
+    }
+
+    dl.end-list {
+      margin-top: 77px;
+    }
+  }
+
+  div.footer-end {
+    width: 90%;
+    height: 20%;
+    border-top: 1px solid #bcbcbc;
+    @include dynamic-flex-row($jc: space-between);
+
+    div.footer-end-text {
+      //   border: 1px solid red;
+      p {
+        font-family: $Inter;
+        font-size: 1.17rem;
+        font-weight: 400;
+        color: #bcbcbc;
+      }
+    }
+
+    div.footer-end-icon {
+      width: 15.05%;
+      height: 32%;
+      //   border: 1px solid red;
+      @include dynamic-flex-row($jc: space-between);
+    }
+  }
+
+  @include iphone-13-1 {
+    height: 1300px;
+    gap: 20px;
+
+    div.list-container {
+      @include dynamic-flex-column($ai: flex-start);
+      height: 90%;
+    }
+
+    div.footer-end {
+      @include dynamic-flex-column($jc: flex-start);
+      //   border: 1px solid red;
+      gap: 20px;
+      height: 10%;
+      padding-top: 40px;
+
+      div.footer-end-text {
+        order: 2;
+        @include dynamic-flex-row;
+
+        p {
+          text-align: center;
+        }
+      }
+
+      div.footer-end-icon {
+        order: 1;
+        @include dynamic-flex-row($jc: space-between);
+        // border: 1px solid red;
+        width: 52%;
+        height: 20%;
+      }
+    }
+  }
+}

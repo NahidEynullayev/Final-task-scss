@@ -1,0 +1,38 @@
+@import "../colors";
+@import "../font";
+@import "../global";
+@import "../mixin";
+@import "../size";
+
+section.section-one-repeat {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  table {
+    width: 80%;
+    tr {
+      td {
+        dl {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          border-top: 0.6px solid #bdbdbd;
+          dd.sil {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  table.two {
+    width: 80%;
+    tr {
+      border-top: 1px solid red;
+      td.sil {
+        display: none;
+      }
+    }
+  }
+}

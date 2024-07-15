@@ -1,0 +1,245 @@
+@import "../colors";
+@import "../font";
+@import "../size";
+@import "../mixin";
+@import "../global";
+
+section.section-one {
+  width: 100%;
+  height: 719.36px;
+  background-image: url("../dist/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000b76;
+
+  // height: 500px;
+  // border: 5px solid red;
+  @include dynamic-flex-column($ai: start, $jc: start);
+  position: relative;
+
+  // background: url(../../dist/bg.png);
+
+  // background-color: #5000ca;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center;
+
+  img.illus {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 100px;
+    height: 100px;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    // border: 1px solid red;
+    @include dynamic-flex-row;
+
+    // padding-left: 2.5%;
+    // padding-right: 2.5%;
+
+    div.header-container {
+      @include dynamic-flex-row($jc: space-between);
+      width: 80%;
+      height: 100%;
+      div.Cryptous {
+        width: 10.7%;
+        height: 41.11%;
+        //   border: 1px solid red;
+        @include dynamic-flex-row($jc: space-evenly);
+
+        p {
+          font-family: $Poppins;
+          font-size: 2rem;
+          font-weight: 700;
+          color: $white;
+        }
+      }
+
+      nav {
+        width: 50%;
+        height: 24.66%;
+        //   border: 1px solid blue;
+
+        ul {
+          list-style: none;
+          width: 100%;
+          height: 100%;
+          @include dynamic-flex-row($jc: space-between);
+
+          a {
+            color: $white;
+            font-family: $Poppins;
+            font-size: 1.4rem;
+            font-weight: 400;
+          }
+        }
+      }
+
+      div.section-one-nav-button {
+        width: 10.6%;
+        height: 48.3%;
+        border-radius: 50px;
+        border: 2px solid #eb5757;
+        @include dynamic-flex-row;
+
+        p {
+          color: $white;
+          font-family: $Poppins;
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+      }
+
+      i.fa-solid,
+      i.fa-bars {
+        display: none;
+      }
+    }
+  }
+
+  .section-one-main {
+    width: 100%;
+    height: 500px;
+    // border: 1px solid red;
+    @include dynamic-flex-row($ai: flex-end);
+    padding-left: 75px;
+    div.section-one-main-container {
+      // border: 1px solid red;
+      width: 90%;
+      height: 80%;
+      @include dynamic-flex-row($jc: space-between, $ai: flex-end);
+      div.make {
+        width: 57.73%;
+        height: 100%;
+        //   border: 1px solid red;
+        @include dynamic-flex-column($ai: flex-start, $jc: flex-start);
+        gap: 40px;
+
+        p {
+          font-family: $Poppins;
+          font-size: 3rem;
+          font-weight: 700;
+          color: $white;
+        }
+
+        span {
+          font-family: $Inter;
+          font-size: 1.42rem;
+          font-weight: 400;
+          color: $white;
+        }
+
+        button {
+          width: 30%;
+          height: 55px;
+          background-color: #eb5757;
+          // padding: 1.25rem 2.5rem 1.25rem 2.5rem;
+          border-radius: 50px;
+          @include dynamic-flex-row;
+
+          p {
+            color: $white;
+            font-family: $Poppins;
+            font-weight: 500;
+            font-size: 1.42rem;
+            width: 131px;
+          }
+        }
+      }
+
+      img.illustration {
+        // border: 5px solid red;
+        height: 115%;
+      }
+
+      img.scrool {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  }
+
+  @include iphone-13-1 {
+    background-image: none;
+    height: 400px;
+    @include dynamic-flex-column;
+    img.illus {
+      display: none;
+    }
+
+    header {
+      height: 200px;
+      // border: 1px solid red;
+      div.header-container {
+        width: 90%;
+        height: 100%;
+        @include dynamic-flex-row($jc: space-between, $ai: flex-end);
+
+        nav {
+          ul {
+            display: none;
+          }
+        }
+
+        div.section-one-nav-button {
+          display: none;
+        }
+
+        i.fa-solid,
+        i.fa-bars {
+          display: inline-block;
+          color: $white;
+          font-size: 30px;
+        }
+      }
+    }
+
+    div.section-one-main {
+      @include dynamic-flex-column;
+      padding: 0;
+      div.section-one-main-container {
+        width: 90%;
+        height: 80%;
+        @include dynamic-flex-column;
+        // border: 1px solid red;
+
+        div.make {
+          width: 100%;
+          @include dynamic-flex-column;
+          p {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: $Poppins;
+            text-align: center;
+          }
+          span {
+            font-size: 1.33rem;
+            text-align: center;
+          }
+
+          button {
+            width: 43.93%;
+            height: 100px;
+
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+        img.illustration {
+          display: none;
+        }
+        img.scrool {
+          display: none;
+        }
+      }
+    }
+  }
+}

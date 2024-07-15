@@ -1,0 +1,103 @@
+@import "../colors";
+@import "../font";
+@import "../global";
+@import "../mixin";
+@import "../size";
+
+.section-three {
+  width: 100%;
+  height: 575.38px;
+  // border: 1px solid blue;
+  @include dynamic-flex-row;
+
+  div.most {
+    width: 80%;
+    height: 70%;
+    // border: 1px solid blue;
+    @include dynamic-flex-column($jc: space-between);
+
+    div.trusted {
+      width: 70%;
+
+      @include dynamic-flex-row;
+      // border: 1px solid red;
+
+      h3 {
+        font-family: $Poppins;
+        font-size: 2.7rem;
+        font-weight: 700;
+      }
+    }
+
+    div.ea-in-pro {
+      width: 100%;
+      height: 66.23%;
+      // border: 1px solid red;
+      @include dynamic-flex-row($jc: space-between, $ai: end);
+
+      div.ea,
+      div.in,
+      div.pro {
+        @include dynamic-flex-column($ai: start);
+        gap: 20px;
+        // border: 1px solid red;
+        height: 100%;
+
+        h2 {
+          font-family: $Inter;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+
+        p {
+          font-family: $Inter;
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+      div.ea {
+        width: 27%;
+      }
+      div.in {
+        width: 29.34%;
+      }
+      div.pro {
+        width: 20.92%;
+      }
+    }
+  }
+
+  @include iphone-13-1 {
+    width: 100%;
+    height: 900px;
+    div.most {
+      width: 100%;
+      height: 100%;
+      @include dynamic-flex-column;
+      gap: 20px;
+
+      div.trusted {
+        width: 100%;
+        @include dynamic-flex-row;
+        h3 {
+          font-size: 1.5rem;
+          text-align: center;
+        }
+      }
+
+      div.ea-in-pro {
+        @include dynamic-flex-column($jc: space-between);
+        width: 100%;
+        height: 80%;
+        gap: 10px;
+        div.ea,
+        div.in,
+        div.pro {
+          width: 100%;
+          @include dynamic-flex-column;
+          gap: 10px;
+        }
+      }
+    }
+  }
+}

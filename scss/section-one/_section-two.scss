@@ -1,0 +1,1408 @@
+@import "../colors";
+@import "../font";
+@import "../size";
+@import "../mixin";
+@import "../global";
+
+section.section-two {
+  width: 100%;
+  height: 801px;
+  // border: 1px solid red;
+  @include dynamic-flex-row;
+  background-color: #000b76;
+
+  div.table {
+    width: 80%;
+    height: 83%;
+    // border: 1px solid red;
+    @include dynamic-flex-column($jc: space-between);
+
+    div.today {
+      width: 43.6%;
+      height: 7.24%;
+      // border: 1px solid red;
+      @include dynamic-flex-row;
+
+      p {
+        text-align: center;
+        font-size: 2rem;
+        font-family: $Poppins;
+        font-weight: 700;
+        color: $white;
+      }
+    }
+
+    table {
+      width: 100%;
+      // border: 1px solid red;
+      border-collapse: collapse;
+      tr.one {
+        border-top: 0.6px solid #bdbdbd;
+        border-bottom: 0.6px solid #bdbdbd;
+        td.one-one {
+          div.one-one {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-size: 1.17rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: white;
+            }
+          }
+        }
+        td.one-two {
+          div.one-two-container {
+            @include dynamic-flex-row;
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+        td.one-three {
+          div.one-three-container {
+            @include dynamic-flex-row;
+            gap: 5px;
+            width: 100%;
+            height: 100%;
+
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+        td.one-four {
+          div.one-four-container {
+            @include dynamic-flex-row;
+            gap: 5px;
+            width: 100%;
+            height: 100%;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.one-five {
+          div.one-five-container {
+            @include dynamic-flex-row;
+            gap: 5px;
+            width: 100%;
+            height: 100%;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.one-six {
+          div.one-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.one-seven {
+          div.one-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.one-eight {
+          div.one-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+      }
+
+      tr.two {
+        border-bottom: 0.6px solid #bdbdbd;
+        td.two-one {
+          div.two-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-size: 1rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: #828282;
+            }
+          }
+        }
+
+        td.two-two {
+          div.two-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 24px;
+              height: 24px;
+            }
+            p {
+              text-align: center;
+              font-size: 1.1rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.two-three {
+          div.two-three {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.two-four {
+          div.two-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+            p {
+              font-size: 1.1rem;
+              font-family: $Inter;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.two-five {
+          div.two-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.two-six {
+          div.two-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-size: 1.17rem;
+              font-weight: 500;
+              font-weight: 500;
+              font-family: $Inter;
+              color: $white;
+            }
+          }
+        }
+
+        td.two-seven {
+          div.two-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.two-eight {
+          div.two-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+      tr.three {
+        border-top: 0.6px solid #bdbdbd;
+        td.three-one {
+          div.three-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1rem;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.three-two {
+          div.three-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 10px;
+            margin: 15px;
+
+            p {
+              font-family: $Open-Sans;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.three-three {
+          div.three-three-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            margin: 15px;
+            padding: 5px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.three-four {
+          div.three-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #ff1a1a;
+            }
+          }
+        }
+
+        td.three-five {
+          div.three-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.three-six {
+          div.three-six {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.three-seven {
+          div.three-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.three-eight {
+          div.three-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+
+      tr.four {
+        border-top: 0.6px solid #bdbdbd;
+        td.four-one {
+          div.four-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            gap: 10px;
+            margin: 15px;
+
+            p {
+              font-size: 1rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: #828282;
+            }
+          }
+        }
+        td.four-two {
+          div.four-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 24px;
+              height: 24px;
+            }
+
+            p {
+              font-family: $Open-Sans;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.four-three {
+          div.four-three-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.four-four {
+          div.four-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #ff1a1a;
+            }
+          }
+        }
+
+        td.four-five {
+          div.four-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #ff1a1a;
+            }
+          }
+        }
+
+        td.four-six {
+          div.four-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.four-seven {
+          div.four-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.four-eight {
+          div.four-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+
+      tr.five {
+        border-top: 0.6px solid #bdbdbd;
+        td.five-one {
+          div.five-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-size: 1rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: #828282;
+            }
+          }
+        }
+
+        td.five-two {
+          div.five-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 24px;
+              height: 24px;
+            }
+            p {
+              text-align: center;
+              font-size: 1.1rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.five-three {
+          div.five-three {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.five-four {
+          div.five-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+            p {
+              font-size: 1.1rem;
+              font-family: $Inter;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.five-five {
+          div.five-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.five-six {
+          div.five-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-size: 1.17rem;
+              font-weight: 500;
+              font-weight: 500;
+              font-family: $Inter;
+              color: $white;
+            }
+          }
+        }
+
+        td.five-seven {
+          div.five-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.five-eight {
+          div.five-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+
+      tr.six {
+        border-top: 0.6px solid #bdbdbd;
+        td.six-one {
+          div.six-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            gap: 10px;
+            margin: 15px;
+
+            p {
+              font-size: 1rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: #828282;
+            }
+          }
+        }
+        td.six-two {
+          div.six-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 24px;
+              height: 24px;
+            }
+
+            p {
+              font-family: $Open-Sans;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.six-three {
+          div.six-three-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.six-four {
+          div.six-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #ff1a1a;
+            }
+          }
+        }
+
+        td.six-five {
+          div.six-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #ff1a1a;
+            }
+          }
+        }
+
+        td.six-six {
+          div.six-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.six-seven {
+          div.six-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.six-eight {
+          div.six-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+
+      tr.seven {
+        border-top: 0.6px solid #bdbdbd;
+        border-bottom: 0.6px solid #bdbdbd;
+        td.seven-one {
+          div.seven-one-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-size: 1rem;
+              font-family: $Inter;
+              font-weight: 500;
+              color: #828282;
+            }
+          }
+        }
+
+        td.seven-two {
+          div.seven-two-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 24px;
+              height: 24px;
+            }
+            p {
+              text-align: center;
+              font-size: 1.1rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: $white;
+            }
+            span {
+              font-size: 0.9rem;
+              font-family: $Open-Sans;
+              font-weight: 400;
+              color: #828282;
+            }
+          }
+        }
+
+        td.seven-three {
+          div.seven-three-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+          }
+        }
+
+        td.seven-four {
+          div.seven-four-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+            p {
+              font-size: 1.1rem;
+              font-family: $Inter;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.seven-five {
+          div.seven-five-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 5px;
+            padding: 5px;
+            margin: 15px;
+
+            img {
+              width: 6.41px;
+              height: 6px;
+            }
+
+            p {
+              font-family: $Inter;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #1aff7c;
+            }
+          }
+        }
+
+        td.seven-six {
+          div.seven-six-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+
+            p {
+              font-size: 1.17rem;
+              font-weight: 500;
+              font-weight: 500;
+              font-family: $Inter;
+              color: $white;
+            }
+          }
+        }
+
+        td.seven-seven {
+          div.seven-seven-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-column;
+            gap: 10px;
+            padding: 5px;
+            margin: 15px;
+            p {
+              font-family: $Inter;
+              font-size: 1.17rem;
+              font-weight: 500;
+              color: $white;
+            }
+
+            span {
+              font-family: $Inter;
+              font-size: 0.9rem;
+              font-weight: 600;
+              color: #828282;
+            }
+          }
+        }
+
+        td.seven-eight {
+          div.seven-eight-container {
+            width: 100%;
+            height: 100%;
+            @include dynamic-flex-row;
+            padding: 5px;
+            margin: 15px;
+            img {
+              width: 123px;
+              height: 29.27px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include iphone-13-1 {
+    div.table {
+      width: 90%;
+      height: 80%;
+      div.today {
+        width: 100%;
+        p {
+          font-size: 1.67rem;
+        }
+      }
+      table {
+        width: 100%;
+        height: 100%;
+        display: block;
+        tr.one {
+          // @include dynamic-flex-row;
+          width: 100%;
+          border-top-width: 5px;
+          border-top: ;
+          td.one-one {
+            display: none;
+            div.one-one {
+              display: none;
+            }
+          }
+
+          // grow
+          td.one-two {
+            display: inline-block;
+            box-sizing: border-box;
+            flex-grow: 4;
+          }
+          td.one-three {
+            display: none;
+          }
+          td.one-four {
+            display: none;
+          }
+          td.one-five {
+            display: none;
+          }
+          td.one-six {
+            display: none;
+          }
+          td.one-seven {
+            display: inline-block;
+            box-sizing: border-box;
+            flex-grow: 4;
+          }
+          td.one-eight {
+            display: none;
+          }
+        }
+        tr.two {
+          // @include dynamic-flex-row;
+          width: 100%;
+          // gap: 120px;
+          border: none;
+          border-bottom: 1px solid red;
+          box-sizing: content-box;
+          td.two-one {
+            display: none;
+            div.two-one-container {
+              display: none;
+            }
+          }
+
+          // grow
+          td.two-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.two-three {
+            display: none;
+          }
+          td.two-four {
+            display: none;
+          }
+          td.two-five {
+            display: none;
+          }
+          td.two-six {
+            display: none;
+          }
+          td.two-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.two-eight {
+            display: none;
+          }
+        }
+
+        tr.three {
+          @include dynamic-flex-row;
+          width: 100%;
+          gap: 120px;
+          border-top: none;
+          td.three-one {
+            display: none;
+          }
+
+          // grow
+          td.three-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.three-three {
+            display: none;
+          }
+          td.three-four {
+            display: none;
+          }
+          td.three-five {
+            display: none;
+          }
+          td.three-six {
+            display: none;
+          }
+          td.three-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.three-eight {
+            display: none;
+          }
+        }
+
+        tr.four {
+          @include dynamic-flex-row;
+          width: 100%;
+          gap: 120px;
+          border-top: none;
+          td.four-one {
+            display: none;
+          }
+
+          // grow
+          td.four-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.four-three {
+            display: none;
+          }
+          td.four-four {
+            display: none;
+          }
+          td.four-five {
+            display: none;
+          }
+          td.four-six {
+            display: none;
+          }
+          td.four-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.four-eight {
+            display: none;
+          }
+        }
+
+        tr.five {
+          @include dynamic-flex-row;
+          width: 100%;
+          gap: 120px;
+          border-top: none;
+          td.five-one {
+            display: none;
+          }
+
+          // grow
+          td.five-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.five-three {
+            display: none;
+          }
+          td.five-four {
+            display: none;
+          }
+          td.five-five {
+            display: none;
+          }
+          td.five-six {
+            display: none;
+          }
+          td.five-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.five-eight {
+            display: none;
+          }
+        }
+
+        tr.six {
+          @include dynamic-flex-row;
+          width: 100%;
+          gap: 120px;
+          border-top: none;
+          td.six-one {
+            display: none;
+          }
+
+          // grow
+          td.six-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.six-three {
+            display: none;
+          }
+          td.six-four {
+            display: none;
+          }
+          td.six-five {
+            display: none;
+          }
+          td.six-six {
+            display: none;
+          }
+          td.six-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.six-eight {
+            display: none;
+          }
+        }
+        tr.seven {
+          @include dynamic-flex-row(space-between);
+          width: 100%;
+
+          border-top: none;
+          td.seven-one {
+            display: none;
+          }
+
+          // grow
+          td.seven-two {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.seven-three {
+            display: none;
+          }
+          td.seven-four {
+            display: none;
+          }
+          td.seven-five {
+            display: none;
+          }
+          td.seven-six {
+            display: none;
+          }
+          td.seven-seven {
+            display: inline-block;
+            box-sizing: border-box;
+          }
+          td.seven-eight {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

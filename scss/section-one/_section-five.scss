@@ -1,0 +1,140 @@
+@import "../colors";
+@import "../font";
+@import "../global";
+@import "../mixin";
+@import "../size";
+
+section.section-five {
+  background-color: #fff6fb;
+  width: 100%;
+  height: 701.75px;
+  // border: 1px soldi red;
+  @include dynamic-flex-row;
+  padding: 5px;
+  div.section-five-container {
+    width: 90%;
+    height: 80%;
+    // border: 1px solid red;
+    @include dynamic-flex-column($jc: space-between);
+    div.learn {
+      height: 8%;
+      // border: 1px solid red;
+      p {
+        font-family: $Poppins;
+        font-size: 2.7rem;
+        font-weight: 600;
+      }
+    }
+
+    div.new-container {
+      width: 100%;
+      height: 71.14%;
+      // border: 1px solid red;
+      @include dynamic-flex-row($jc: space-between);
+      div.new {
+        width: 30%;
+        height: 100%;
+        // border: 1px solid red;
+        border-radius: 10px 10px 0px 0px;
+
+        div.new-img {
+          width: 100%;
+          height: 51.83%;
+          // border: 1px solid red;
+          border-radius: 10px 10px 0px 0px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+          }
+        }
+        div.new-text {
+          box-shadow: 0px 4px 8px 0px #cbcbcb40;
+          background-color: $white;
+          width: 100%;
+          height: 48.17%;
+          // border: 1px solid red;
+          @include dynamic-flex-column($jc: space-around);
+          padding: 20px;
+          p {
+            font-family: $Poppins;
+            font-size: 1.33rem;
+            font-weight: 500;
+          }
+          span {
+            font-family: $Open-Sans;
+            font-size: 1.17rem;
+            color: #4f4f4f;
+            letter-spacing: 3%;
+          }
+          div.jennia {
+            width: 100%;
+            @include dynamic-flex-row(space-between);
+            p {
+              font-family: $Open-Sans;
+              font-size: 1rem;
+              font-weight: 400;
+              letter-spacing: 3%;
+              color: #616161;
+            }
+
+            div.date {
+              @include dynamic-flex-row;
+              gap: 3px;
+              img {
+                width: 10px;
+                height: 10px;
+                @include dynamic-flex-row;
+              }
+            }
+            div.min {
+              @include dynamic-flex-row;
+              gap: 3px;
+
+              img {
+                width: 10px;
+                height: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include iphone-13-1 {
+    // background-color: red;
+    height: 1400px;
+    @include dynamic-flex-column(space-evenly);
+
+    div.section-five-container {
+      width: 100%;
+      height: 100%;
+      // border: 10px solid black;
+      @include dynamic-flex-column;
+      gap: 20px;
+
+      div.learn {
+        width: 100%;
+        @include dynamic-flex-row;
+
+        p {
+          text-align: center;
+        }
+      }
+
+      div.new-container {
+        width: 100%;
+        @include dynamic-flex-column;
+        gap: 20px;
+        height: 100%;
+
+        div.new {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
