@@ -6,503 +6,427 @@
 
 section.section-two {
   width: 100%;
-  height: 801px;
+  height: 850px;
   // border: 1px solid red;
   @include dynamic-flex-row;
   background-color: #000b76;
 
   div.table {
     width: 80%;
-    height: 83%;
+    height: 90%;
     // border: 1px solid red;
     @include dynamic-flex-column($jc: space-between);
 
     div.today {
-      width: 43.6%;
-      height: 7.24%;
+      width: 50%;
+      height: 7.2%;
       // border: 1px solid red;
-      @include dynamic-flex-row;
+      @include dynamic-flex-column;
 
       p {
-        text-align: center;
-        font-size: 2rem;
         font-family: $Poppins;
+        font-size: 2.7rem;
         font-weight: 700;
         color: $white;
       }
     }
 
     table {
-      width: 100%;
-      // border: 1px solid red;
       border-collapse: collapse;
+      width: 100%;
       tr.one {
         border-top: 0.6px solid #bdbdbd;
-        border-bottom: 0.6px solid #bdbdbd;
+        height: 50px;
         td.one-one {
-          div.one-one {
+          div.one-one-container {
+            @include dynamic-flex-row;
             width: 100%;
             height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
 
-            p {
-              font-size: 1.17rem;
+            span {
               font-family: $Inter;
+              font-size: 1.17rem;
               font-weight: 500;
-              color: white;
+              color: $white;
+              text-align: center;
             }
           }
         }
         td.one-two {
           div.one-two-container {
-            @include dynamic-flex-row;
-            padding: 5px;
             width: 100%;
             height: 100%;
-
-            margin: 15px;
+            @include dynamic-flex-row;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
         td.one-three {
           div.one-three-container {
-            @include dynamic-flex-row;
-            gap: 5px;
             width: 100%;
             height: 100%;
-
-            margin: 15px;
-
+            @include dynamic-flex-row;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
         td.one-four {
           div.one-four-container {
-            @include dynamic-flex-row;
-            gap: 5px;
             width: 100%;
             height: 100%;
-            margin: 15px;
+            @include dynamic-flex-row;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.one-five {
           div.one-five-container {
-            @include dynamic-flex-row;
-            gap: 5px;
             width: 100%;
             height: 100%;
-            margin: 15px;
-
+            @include dynamic-flex-row;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.one-six {
           div.one-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            margin: 15px;
-            p {
+            gap: 3px;
+            span {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.one-seven {
           div.one-seven-container {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            gap: 5px;
-            margin: 15px;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.one-eight {
           div.one-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            margin: 15px;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
       }
-
       tr.two {
-        border-bottom: 0.6px solid #bdbdbd;
+        height: 100px;
+        border-top: 0.6px solid #bdbdbd;
         td.two-one {
           div.two-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            p {
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
-              font-family: $Inter;
-              font-weight: 500;
-              color: #828282;
+              font-weight: 400;
+              color: $white;
+              text-align: center;
             }
           }
         }
-
         td.two-two {
           div.two-two-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 24px;
-              height: 24px;
-            }
-            p {
-              text-align: center;
-              font-size: 1.1rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+            gap: 5px;
+
+            div.two-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.bitcoin {
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
+
+                text-align: left;
+              }
             }
           }
         }
-
         td.two-three {
-          div.two-three {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
+          div.two-three-container {
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.two-four {
           div.two-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-            p {
-              font-size: 1.1rem;
+            span {
               font-family: $Inter;
+              font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.two-five {
           div.two-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.two-six {
           div.two-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-
             p {
+              font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
-              font-weight: 500;
-              font-family: $Inter;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.two-seven {
           div.two-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.two-eight {
           div.two-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
       tr.three {
+        height: 100px;
         border-top: 0.6px solid #bdbdbd;
         td.three-one {
           div.three-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            p {
-              font-family: $Inter;
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
               font-weight: 400;
-              color: #828282;
+              color: $white;
+              text-align: center;
             }
           }
         }
-
         td.three-two {
           div.three-two-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 10px;
-            margin: 15px;
+            gap: 5px;
 
-            p {
-              font-family: $Open-Sans;
-              font-size: 1.1rem;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+            div.three-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.etherium {
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
+
+                text-align: left;
+              }
             }
           }
         }
-
         td.three-three {
           div.three-three-container {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            margin: 15px;
-            padding: 5px;
             p {
               font-family: $Inter;
-              font-size: 1.17;
+              font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.three-four {
           div.three-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #ff1a1a;
             }
           }
         }
-
         td.three-five {
           div.three-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.three-six {
-          div.three-six {
+          div.three-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.three-seven {
           div.three-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
 
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.three-eight {
           div.three-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
 
       tr.four {
+        height: 100px;
         border-top: 0.6px solid #bdbdbd;
         td.four-one {
           div.four-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            gap: 10px;
-            margin: 15px;
-
-            p {
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
-              font-family: $Inter;
-              font-weight: 500;
-              color: #828282;
+              font-weight: 400;
+              color: $white;
+              text-align: center;
             }
           }
         }
@@ -511,321 +435,263 @@ section.section-two {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            gap: 5px;
 
-            img {
-              width: 24px;
-              height: 24px;
-            }
+            div.four-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.cardano {
+                @include dynamic-flex-row;
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
 
-            p {
-              font-family: $Open-Sans;
-              font-size: 1.1rem;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+                text-align: left;
+              }
             }
           }
         }
-
         td.four-three {
           div.four-three-container {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
             p {
               font-family: $Inter;
-              font-size: 1.17;
+              font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.four-four {
           div.four-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #ff1a1a;
             }
           }
         }
-
         td.four-five {
           div.four-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #ff1a1a;
             }
           }
         }
-
         td.four-six {
           div.four-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.four-seven {
           div.four-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
 
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.four-eight {
           div.four-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
 
       tr.five {
+        height: 100px;
         border-top: 0.6px solid #bdbdbd;
         td.five-one {
           div.five-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            p {
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
-              font-family: $Inter;
-              font-weight: 500;
-              color: #828282;
+              font-weight: 400;
+              color: $white;
+              text-align: center;
             }
           }
         }
-
         td.five-two {
           div.five-two-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 24px;
-              height: 24px;
-            }
-            p {
-              text-align: center;
-              font-size: 1.1rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+            gap: 5px;
+
+            div.five-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.tether {
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
+
+                text-align: left;
+              }
             }
           }
         }
-
         td.five-three {
-          div.five-three {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
+          div.five-three-container {
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.five-four {
           div.five-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-            p {
-              font-size: 1.1rem;
+            span {
               font-family: $Inter;
+              font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.five-five {
           div.five-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.five-six {
           div.five-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-
             p {
+              font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
-              font-weight: 500;
-              font-family: $Inter;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.five-seven {
           div.five-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.five-eight {
           div.five-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
 
       tr.six {
+        height: 100px;
         border-top: 0.6px solid #bdbdbd;
         td.six-one {
           div.six-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            gap: 10px;
-            margin: 15px;
-
-            p {
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
-              font-family: $Inter;
-              font-weight: 500;
-              color: #828282;
+              font-weight: 400;
+              color: $white;
+              text-align: center;
             }
           }
         }
@@ -834,302 +700,244 @@ section.section-two {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            gap: 5px;
 
-            img {
-              width: 24px;
-              height: 24px;
-            }
+            div.six-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.avalanche {
+                @include dynamic-flex-row;
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
 
-            p {
-              font-family: $Open-Sans;
-              font-size: 1.1rem;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+                text-align: left;
+              }
             }
           }
         }
-
         td.six-three {
           div.six-three-container {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
             p {
               font-family: $Inter;
-              font-size: 1.17;
+              font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.six-four {
           div.six-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #ff1a1a;
             }
           }
         }
-
         td.six-five {
           div.six-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #ff1a1a;
             }
           }
         }
-
         td.six-six {
           div.six-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.six-seven {
           div.six-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
 
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.six-eight {
           div.six-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
 
       tr.seven {
+        height: 100px;
         border-top: 0.6px solid #bdbdbd;
-        border-bottom: 0.6px solid #bdbdbd;
         td.seven-one {
           div.seven-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            p {
+            gap: 3px;
+            span {
+              font-family: Inter;
               font-size: 1rem;
-              font-family: $Inter;
-              font-weight: 500;
-              color: #828282;
+              font-weight: 400;
+              color: $white;
+              text-align: center;
             }
           }
         }
-
         td.seven-two {
           div.seven-two-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 24px;
-              height: 24px;
-            }
-            p {
-              text-align: center;
-              font-size: 1.1rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: $white;
-            }
-            span {
-              font-size: 0.9rem;
-              font-family: $Open-Sans;
-              font-weight: 400;
-              color: #828282;
+            gap: 5px;
+
+            div.seven-two-text {
+              @include dynamic-flex-row;
+              gap: 3px;
+              span.tether {
+                font-family: Open Sans;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: $white;
+                text-align: left;
+              }
+              span {
+                font-family: Open Sans;
+                font-size: 0.9rem;
+                font-weight: 400;
+                color: #828282;
+
+                text-align: left;
+              }
             }
           }
         }
-
         td.seven-three {
           div.seven-three-container {
-            width: 100%;
-            height: 100%;
-            @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+
+              text-align: center;
             }
           }
         }
-
         td.seven-four {
           div.seven-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-            p {
-              font-size: 1.1rem;
+            span {
               font-family: $Inter;
+              font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.seven-five {
           div.seven-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 5px;
-            padding: 5px;
-            margin: 15px;
-
-            img {
-              width: 6.41px;
-              height: 6px;
-            }
-
-            p {
+            span {
               font-family: $Inter;
               font-size: 1.1rem;
               font-weight: 400;
+              text-align: left;
               color: #1aff7c;
             }
           }
         }
-
         td.seven-six {
           div.seven-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
-
             p {
+              font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
-              font-weight: 500;
-              font-family: $Inter;
               color: $white;
+              text-align: center;
             }
           }
         }
-
         td.seven-seven {
           div.seven-seven-container {
             width: 100%;
             height: 100%;
-            @include dynamic-flex-column;
-            gap: 10px;
-            padding: 5px;
-            margin: 15px;
+            @include dynamic-flex-column($ai: flex-end);
+            gap: 3px;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
               font-weight: 500;
               color: $white;
+              text-align: center;
             }
-
             span {
               font-family: $Inter;
               font-size: 0.9rem;
               font-weight: 600;
               color: #828282;
+              text-align: left;
             }
           }
         }
-
         td.seven-eight {
           div.seven-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
-            padding: 5px;
-            margin: 15px;
-            img {
-              width: 123px;
-              height: 29.27px;
-            }
           }
         }
       }
@@ -1137,92 +945,58 @@ section.section-two {
   }
 
   @include iphone-13-1 {
+    height: 800px;
     div.table {
-      width: 90%;
-      height: 80%;
+      width: 100%;
+
       div.today {
         width: 100%;
+        text-align: center;
         p {
-          font-size: 1.67rem;
+          font-size: 1.7rem;
+          @include dynamic-flex-row;
         }
       }
       table {
         width: 100%;
-        height: 100%;
-        display: block;
         tr.one {
-          // @include dynamic-flex-row;
-          width: 100%;
-          border-top-width: 5px;
-          border-top: ;
           td.one-one {
             display: none;
-            div.one-one {
-              display: none;
-            }
           }
 
-          // grow
-          td.one-two {
-            display: inline-block;
-            box-sizing: border-box;
-            flex-grow: 4;
-          }
           td.one-three {
-            display: none;
+            visibility: hidden;
           }
           td.one-four {
-            display: none;
+            visibility: hidden;
           }
           td.one-five {
-            display: none;
+            visibility: hidden;
           }
           td.one-six {
-            display: none;
-          }
-          td.one-seven {
-            display: inline-block;
-            box-sizing: border-box;
-            flex-grow: 4;
+            visibility: hidden;
           }
           td.one-eight {
             display: none;
           }
         }
+
         tr.two {
-          // @include dynamic-flex-row;
-          width: 100%;
-          // gap: 120px;
-          border: none;
-          border-bottom: 1px solid red;
-          box-sizing: content-box;
           td.two-one {
             display: none;
-            div.two-one-container {
-              display: none;
-            }
           }
 
-          // grow
-          td.two-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.two-three {
-            display: none;
+            visibility: hidden;
           }
           td.two-four {
-            display: none;
+            visibility: hidden;
           }
           td.two-five {
-            display: none;
+            visibility: hidden;
           }
           td.two-six {
-            display: none;
-          }
-          td.two-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.two-eight {
             display: none;
@@ -1230,34 +1004,21 @@ section.section-two {
         }
 
         tr.three {
-          @include dynamic-flex-row;
-          width: 100%;
-          gap: 120px;
-          border-top: none;
           td.three-one {
             display: none;
           }
 
-          // grow
-          td.three-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.three-three {
-            display: none;
+            visibility: hidden;
           }
           td.three-four {
-            display: none;
+            visibility: hidden;
           }
           td.three-five {
-            display: none;
+            visibility: hidden;
           }
           td.three-six {
-            display: none;
-          }
-          td.three-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.three-eight {
             display: none;
@@ -1265,34 +1026,21 @@ section.section-two {
         }
 
         tr.four {
-          @include dynamic-flex-row;
-          width: 100%;
-          gap: 120px;
-          border-top: none;
           td.four-one {
             display: none;
           }
 
-          // grow
-          td.four-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.four-three {
-            display: none;
+            visibility: hidden;
           }
           td.four-four {
-            display: none;
+            visibility: hidden;
           }
           td.four-five {
-            display: none;
+            visibility: hidden;
           }
           td.four-six {
-            display: none;
-          }
-          td.four-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.four-eight {
             display: none;
@@ -1300,103 +1048,64 @@ section.section-two {
         }
 
         tr.five {
-          @include dynamic-flex-row;
-          width: 100%;
-          gap: 120px;
-          border-top: none;
           td.five-one {
             display: none;
           }
 
-          // grow
-          td.five-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.five-three {
-            display: none;
+            visibility: hidden;
           }
           td.five-four {
-            display: none;
+            visibility: hidden;
           }
           td.five-five {
-            display: none;
+            visibility: hidden;
           }
           td.five-six {
-            display: none;
-          }
-          td.five-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.five-eight {
             display: none;
           }
         }
-
         tr.six {
-          @include dynamic-flex-row;
-          width: 100%;
-          gap: 120px;
-          border-top: none;
           td.six-one {
             display: none;
           }
 
-          // grow
-          td.six-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.six-three {
-            display: none;
+            visibility: hidden;
           }
           td.six-four {
-            display: none;
+            visibility: hidden;
           }
           td.six-five {
-            display: none;
+            visibility: hidden;
           }
           td.six-six {
-            display: none;
-          }
-          td.six-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.six-eight {
             display: none;
           }
         }
-        tr.seven {
-          @include dynamic-flex-row(space-between);
-          width: 100%;
 
-          border-top: none;
+        tr.seven {
           td.seven-one {
             display: none;
           }
 
-          // grow
-          td.seven-two {
-            display: inline-block;
-            box-sizing: border-box;
-          }
           td.seven-three {
-            display: none;
+            visibility: hidden;
           }
           td.seven-four {
-            display: none;
+            visibility: hidden;
           }
           td.seven-five {
-            display: none;
+            visibility: hidden;
           }
           td.seven-six {
-            display: none;
-          }
-          td.seven-seven {
-            display: inline-block;
-            box-sizing: border-box;
+            visibility: hidden;
           }
           td.seven-eight {
             display: none;

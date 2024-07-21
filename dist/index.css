@@ -1,18 +1,2352 @@
-/* Error: Expected expression.
- *      ,
- * 1157 |           border-top: ;
- *      |                       ^
- *      '
- *   scss\section-one\_section-two.scss 1157:23  @import
- *   scss\index.scss 2:9                         root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a      \2577 \a 1157 \2502            border-top: ;\d\a      \2502                        ^\a      \2575 \a   scss\\section-one\\_section-two.scss 1157:23  @import\a   scss\\index.scss 2:9                         root stylesheet";
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-one {
+  width: 100%;
+  height: 719.36px;
+  background-image: url("../dist/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000b76;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+
+section.section-one img.illus {
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  width: 100px;
+  height: 100px;
+}
+
+section.section-one header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-one header div.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+section.section-one header div.header-container div.Cryptous {
+  width: 10.7%;
+  height: 41.11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section.section-one header div.header-container div.Cryptous p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+section.section-one header div.header-container nav {
+  width: 50%;
+  height: 24.66%;
+}
+
+section.section-one header div.header-container nav ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-one header div.header-container nav ul a {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+section.section-one header div.header-container div.section-one-nav-button {
+  width: 10.6%;
+  height: 48.3%;
+  border-radius: 50px;
+  border: 2px solid #eb5757;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-one header div.header-container div.section-one-nav-button p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+section.section-one header div.header-container i.fa-solid,
+section.section-one header div.header-container i.fa-bars {
+  display: none;
+}
+
+section.section-one .section-one-main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding-left: 75px;
+}
+
+section.section-one .section-one-main div.section-one-main-container {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+section.section-one .section-one-main div.section-one-main-container div.make {
+  width: 57.73%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+section.section-one .section-one-main div.section-one-main-container div.make p {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+section.section-one .section-one-main div.section-one-main-container div.make span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.42rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+section.section-one .section-one-main div.section-one-main-container div.make button {
+  width: 30%;
+  height: 55px;
+  background-color: #eb5757;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-one .section-one-main div.section-one-main-container div.make button p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.42rem;
+  width: 131px;
+}
+
+section.section-one .section-one-main div.section-one-main-container img.illustration {
+  height: 115%;
+}
+
+section.section-one .section-one-main div.section-one-main-container img.scrool {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media (max-width: 375px) {
+  section.section-one {
+    background-image: none;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.section-one img.illus {
+    display: none;
+  }
+  section.section-one header {
+    height: 200px;
+  }
+  section.section-one header div.header-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  section.section-one header div.header-container nav ul {
+    display: none;
+  }
+  section.section-one header div.header-container div.section-one-nav-button {
+    display: none;
+  }
+  section.section-one header div.header-container i.fa-solid,
+  section.section-one header div.header-container i.fa-bars {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  section.section-one div.section-one-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  section.section-one div.section-one-main div.section-one-main-container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.section-one div.section-one-main div.section-one-main-container div.make {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section.section-one div.section-one-main div.section-one-main-container div.make p {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  section.section-one div.section-one-main div.section-one-main-container div.make span {
+    font-size: 1.33rem;
+    text-align: center;
+  }
+  section.section-one div.section-one-main div.section-one-main-container div.make button {
+    width: 43.93%;
+    height: 100px;
+  }
+  section.section-one div.section-one-main div.section-one-main-container div.make button p {
+    font-size: 1rem;
+  }
+  section.section-one div.section-one-main div.section-one-main-container img.illustration {
+    display: none;
+  }
+  section.section-one div.section-one-main div.section-one-main-container img.scrool {
+    display: none;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-two {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000b76;
+}
+
+section.section-two div.table {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-two div.table div.today {
+  width: 50%;
+  height: 7.2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table div.today p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+section.section-two div.table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+section.section-two div.table table tr.one {
+  border-top: 0.6px solid #bdbdbd;
+  height: 50px;
+}
+
+section.section-two div.table table tr.one td.one-one div.one-one-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+section.section-two div.table table tr.one td.one-one div.one-one-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-two div.one-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.one td.one-two div.one-two-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-three div.one-three-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.one td.one-three div.one-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-four div.one-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.one td.one-four div.one-four-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-five div.one-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.one td.one-five div.one-five-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-six div.one-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.one td.one-six div.one-six-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-seven div.one-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.one td.one-eight div.one-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.one td.one-eight div.one-eight-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.two {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.two td.two-one div.two-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.two td.two-one div.two-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.two td.two-two div.two-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text span.bitcoin {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.two td.two-three div.two-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.two td.two-four div.two-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.two td.two-four div.two-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.two td.two-five div.two-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.two td.two-five div.two-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.two td.two-six div.two-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.two td.two-six div.two-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.two td.two-seven div.two-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.two td.two-seven div.two-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.two td.two-seven div.two-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.two td.two-eight div.two-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.three {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.three td.three-one div.three-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.three td.three-one div.three-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.three td.three-two div.three-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text span.etherium {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.three td.three-three div.three-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.three td.three-four div.three-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.three td.three-four div.three-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ff1a1a;
+}
+
+section.section-two div.table table tr.three td.three-five div.three-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.three td.three-five div.three-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.three td.three-six div.three-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.three td.three-six div.three-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.three td.three-seven div.three-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.three td.three-seven div.three-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.three td.three-seven div.three-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.three td.three-eight div.three-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.four {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.four td.four-one div.four-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.four td.four-one div.four-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.four td.four-two div.four-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text span.cardano {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.four td.four-three div.four-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.four td.four-four div.four-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.four td.four-four div.four-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ff1a1a;
+}
+
+section.section-two div.table table tr.four td.four-five div.four-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.four td.four-five div.four-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ff1a1a;
+}
+
+section.section-two div.table table tr.four td.four-six div.four-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.four td.four-six div.four-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.four td.four-seven div.four-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.four td.four-seven div.four-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.four td.four-seven div.four-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.four td.four-eight div.four-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.five {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.five td.five-one div.five-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.five td.five-one div.five-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.five td.five-two div.five-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text span.tether {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.five td.five-three div.five-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.five td.five-four div.five-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.five td.five-four div.five-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.five td.five-five div.five-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.five td.five-five div.five-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.five td.five-six div.five-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.five td.five-six div.five-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.five td.five-seven div.five-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.five td.five-seven div.five-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.five td.five-seven div.five-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.five td.five-eight div.five-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.six {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.six td.six-one div.six-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.six td.six-one div.six-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.six td.six-two div.six-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text span.avalanche {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.six td.six-three div.six-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.six td.six-four div.six-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.six td.six-four div.six-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ff1a1a;
+}
+
+section.section-two div.table table tr.six td.six-five div.six-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.six td.six-five div.six-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ff1a1a;
+}
+
+section.section-two div.table table tr.six td.six-six div.six-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.six td.six-six div.six-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.six td.six-seven div.six-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.six td.six-seven div.six-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.six td.six-seven div.six-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.six td.six-eight div.six-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.seven {
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-two div.table table tr.seven td.seven-one div.seven-one-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.seven td.seven-one div.seven-one-container span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text span.tether {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.seven td.seven-three div.seven-three-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.seven td.seven-four div.seven-four-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.seven td.seven-four div.seven-four-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.seven td.seven-five div.seven-five-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.seven td.seven-five div.seven-five-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #1aff7c;
+}
+
+section.section-two div.table table tr.seven td.seven-six div.seven-six-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-two div.table table tr.seven td.seven-six div.seven-six-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container span {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #828282;
+  text-align: left;
+}
+
+section.section-two div.table table tr.seven td.seven-eight div.seven-eight-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  section.section-two {
+    height: 800px;
+  }
+  section.section-two div.table {
+    width: 100%;
+  }
+  section.section-two div.table div.today {
+    width: 100%;
+    text-align: center;
+  }
+  section.section-two div.table div.today p {
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  section.section-two div.table table {
+    width: 100%;
+  }
+  section.section-two div.table table tr.one td.one-one {
+    display: none;
+  }
+  section.section-two div.table table tr.one td.one-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.one td.one-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.one td.one-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.one td.one-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.one td.one-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.two td.two-one {
+    display: none;
+  }
+  section.section-two div.table table tr.two td.two-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.two td.two-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.two td.two-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.two td.two-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.two td.two-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.three td.three-one {
+    display: none;
+  }
+  section.section-two div.table table tr.three td.three-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.three td.three-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.three td.three-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.three td.three-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.three td.three-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.four td.four-one {
+    display: none;
+  }
+  section.section-two div.table table tr.four td.four-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.four td.four-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.four td.four-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.four td.four-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.four td.four-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.five td.five-one {
+    display: none;
+  }
+  section.section-two div.table table tr.five td.five-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.five td.five-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.five td.five-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.five td.five-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.five td.five-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.six td.six-one {
+    display: none;
+  }
+  section.section-two div.table table tr.six td.six-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.six td.six-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.six td.six-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.six td.six-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.six td.six-eight {
+    display: none;
+  }
+  section.section-two div.table table tr.seven td.seven-one {
+    display: none;
+  }
+  section.section-two div.table table tr.seven td.seven-three {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.seven td.seven-four {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.seven td.seven-five {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.seven td.seven-six {
+    visibility: hidden;
+  }
+  section.section-two div.table table tr.seven td.seven-eight {
+    display: none;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+.section-three {
+  width: 100%;
+  height: 575.38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three div.most {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-three div.most div.trusted {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three div.most div.trusted h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.section-three div.most div.ea-in-pro {
+  width: 100%;
+  height: 66.23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.section-three div.most div.ea-in-pro div.ea,
+.section-three div.most div.ea-in-pro div.in,
+.section-three div.most div.ea-in-pro div.pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  height: 100%;
+}
+
+.section-three div.most div.ea-in-pro div.ea h2,
+.section-three div.most div.ea-in-pro div.in h2,
+.section-three div.most div.ea-in-pro div.pro h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.section-three div.most div.ea-in-pro div.ea p,
+.section-three div.most div.ea-in-pro div.in p,
+.section-three div.most div.ea-in-pro div.pro p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.section-three div.most div.ea-in-pro div.ea {
+  width: 27%;
+}
+
+.section-three div.most div.ea-in-pro div.in {
+  width: 29.34%;
+}
+
+.section-three div.most div.ea-in-pro div.pro {
+  width: 20.92%;
+}
+
+@media (max-width: 375px) {
+  .section-three {
+    width: 100%;
+    height: 900px;
+  }
+  .section-three div.most {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .section-three div.most div.trusted {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-three div.most div.trusted h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .section-three div.most div.ea-in-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    gap: 10px;
+  }
+  .section-three div.most div.ea-in-pro div.ea,
+  .section-three div.most div.ea-in-pro div.in,
+  .section-three div.most div.ea-in-pro div.pro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-four {
+  background-color: #05034e;
+  height: 701.75px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-four div.try {
+  width: 82.18%;
+  height: 69.14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-four div.try .the-future {
+  width: 45%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-four div.try .the-future div.the-future-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+section.section-four div.try .the-future div.the-future-header p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  color: #ffffff;
+}
+
+section.section-four div.try .the-future div.the-future-header span {
+  font-family: "Inter", sans-serif;
+  font-size: 1.42rem;
+  color: #ffffff;
+}
+
+section.section-four div.try .the-future div.the-future-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+section.section-four div.try div.two-tel {
+  width: 38.56%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  section.section-four section.section-four {
+    height: 300px;
+  }
+  section.section-four div.try {
+    width: 80%;
+    height: 85%;
+    position: relative;
+  }
+  section.section-four div.try div.the-future {
+    width: 100%;
+    height: 100%;
+  }
+  section.section-four div.try div.the-future div.the-future-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  section.section-four div.try div.the-future div.the-future-header p {
+    font-size: 20px;
+    text-align: center;
+  }
+  section.section-four div.try div.the-future div.the-future-header span {
+    font-size: 14px;
+    text-align: center;
+  }
+  section.section-four div.try div.the-future div.the-future-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  section.section-four div.try div.the-future div.the-future-footer div.available {
+    width: 70px;
+    height: 30px;
+  }
+  section.section-four div.try div.the-future div.the-future-footer div.available img {
+    width: 100px;
+    height: 40px;
+  }
+  section.section-four div.try div.two-tel {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -30%);
+    width: 300px;
+    height: 300px;
+  }
+  section.section-four div.try div.two-tel img {
+    width: 250px;
+    height: 300px;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-five {
+  background-color: #fff6fb;
+  width: 100%;
+  height: 701.75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+section.section-five div.section-five-container {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-five div.section-five-container div.learn {
+  height: 8%;
+}
+
+section.section-five div.section-five-container div.learn p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+section.section-five div.section-five-container div.new-container {
+  width: 100%;
+  height: 71.14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-five div.section-five-container div.new-container div.new {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-img {
+  width: 100%;
+  height: 51.83%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text {
+  box-shadow: 0px 4px 8px 0px rgba(203, 203, 203, 0.2509803922);
+  background-color: #ffffff;
+  width: 100%;
+  height: 48.17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.33rem;
+  font-weight: 500;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.17rem;
+  color: #4f4f4f;
+  letter-spacing: 3%;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3%;
+  color: #616161;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia div.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia div.date img {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia div.min {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+section.section-five div.section-five-container div.new-container div.new div.new-text div.jennia div.min img {
+  width: 10px;
+  height: 10px;
+}
+
+@media (max-width: 375px) {
+  section.section-five {
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  section.section-five div.section-five-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  section.section-five div.section-five-container div.learn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  section.section-five div.section-five-container div.learn p {
+    text-align: center;
+  }
+  section.section-five div.section-five-container div.new-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+  }
+  section.section-five div.section-five-container div.new-container div.new {
+    width: 100%;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-six {
+  width: 100%;
+  height: 400px;
+  background-color: #05034e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+section.section-six img.shape {
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 375px) {
+  section.section-six img.shape {
+    display: none;
+  }
+}
+section.section-six img.shape-1 {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 375px) {
+  section.section-six img.shape-1 {
+    display: none;
+  }
+}
+section.section-six div.never {
+  width: 45%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-six div.never p {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.17rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-six div.never span {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+section.section-six form {
+  width: 45%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section.section-six form input {
+  width: 75%;
+  height: 60%;
+  border: 2px solid #ffffff;
+  border-radius: 37px;
+  background-color: transparent;
+  padding: 23px;
+}
+
+section.section-six form button {
+  position: absolute;
+  right: 0;
+  transform: translate(-63%);
+  width: 139px;
+  height: 62px;
+  background-color: #eb5757;
+  border-radius: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-six form button p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.42rem;
+  font-weight: 500;
+}
+
+@media (max-width: 375px) {
+  section.section-six {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  section.section-six div.never {
+    width: 90%;
+    gap: 20px;
+  }
+  section.section-six div.never p {
+    font-size: 2rem;
+  }
+  section.section-six div.never span {
+    font-size: 1rem;
+  }
+  section.section-six form {
+    width: 90%;
+  }
+  section.section-six form input {
+    width: 90%;
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  section.section-six form button {
+    width: 130px;
+    height: 40px;
+    transform: translate(-14%);
+  }
+  section.section-six form button p {
+    font-size: 1.2rem;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+footer {
+  background: linear-gradient(227.07deg, #4e0062 0.43%, #220076 99.56%);
+  width: 100%;
+  height: 539.45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer div.list-container {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div.list-container dl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+footer div.list-container dl dt {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+footer div.list-container dl dd {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #e6e6e6;
+  font-weight: 200;
+}
+
+footer div.list-container dl.end-list {
+  margin-top: 77px;
+}
+
+footer div.footer-end {
+  width: 90%;
+  height: 20%;
+  border-top: 1px solid #bcbcbc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div.footer-end div.footer-end-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 400;
+  color: #bcbcbc;
+}
+
+footer div.footer-end div.footer-end-icon {
+  width: 15.05%;
+  height: 32%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  footer {
+    height: 1300px;
+    gap: 20px;
+  }
+  footer div.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+  }
+  footer div.footer-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    height: 10%;
+    padding-top: 40px;
+  }
+  footer div.footer-end div.footer-end-text {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div.footer-end div.footer-end-text p {
+    text-align: center;
+  }
+  footer div.footer-end div.footer-end-icon {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 52%;
+    height: 20%;
+  }
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-size: 12px;
+}
+
+section.section-one-repeat {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.section-one-repeat table {
+  width: 80%;
+}
+
+section.section-one-repeat table tr td dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 0.6px solid #bdbdbd;
+}
+
+section.section-one-repeat table tr td dl dd.sil {
+  display: none;
+}
+
+section.section-one-repeat table.two {
+  width: 80%;
+}
+
+section.section-one-repeat table.two tr {
+  border-top: 1px solid red;
+}
+
+section.section-one-repeat table.two tr td.sil {
+  display: none;
+} 
+
+/*# sourceMappingURL=index.css.map */

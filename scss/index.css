@@ -276,7 +276,7 @@ body {
 
 section.section-two {
   width: 100%;
-  height: 801px;
+  height: 850px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -285,114 +285,108 @@ section.section-two {
 }
 section.section-two div.table {
   width: 80%;
-  height: 83%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 section.section-two div.table div.today {
-  width: 43.6%;
-  height: 7.24%;
+  width: 50%;
+  height: 7.2%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 section.section-two div.table div.today p {
-  text-align: center;
-  font-size: 2rem;
   font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
   font-weight: 700;
   color: #ffffff;
 }
 section.section-two div.table table {
-  width: 100%;
   border-collapse: collapse;
+  width: 100%;
 }
 section.section-two div.table table tr.one {
   border-top: 0.6px solid #bdbdbd;
-  border-bottom: 0.6px solid #bdbdbd;
+  height: 50px;
 }
-section.section-two div.table table tr.one td.one-one div.one-one {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.one td.one-one div.one-one-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  width: 100%;
+  height: 100%;
 }
-section.section-two div.table table tr.one td.one-one div.one-one p {
-  font-size: 1.17rem;
+section.section-two div.table table tr.one td.one-one div.one-one-container span {
   font-family: "Inter", sans-serif;
+  font-size: 1.17rem;
   font-weight: 500;
-  color: white;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-two div.one-two-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  width: 100%;
-  height: 100%;
-  margin: 15px;
 }
 section.section-two div.table table tr.one td.one-two div.one-two-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-three div.one-three-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  width: 100%;
-  height: 100%;
-  margin: 15px;
 }
 section.section-two div.table table tr.one td.one-three div.one-three-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-four div.one-four-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  width: 100%;
-  height: 100%;
-  margin: 15px;
 }
 section.section-two div.table table tr.one td.one-four div.one-four-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-five div.one-five-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  width: 100%;
-  height: 100%;
-  margin: 15px;
 }
 section.section-two div.table table tr.one td.one-five div.one-five-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-six div.one-six-container {
   width: 100%;
@@ -401,30 +395,21 @@ section.section-two div.table table tr.one td.one-six div.one-six-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.one td.one-six div.one-six-container p {
+section.section-two div.table table tr.one td.one-six div.one-six-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
-}
-section.section-two div.table table tr.one td.one-seven div.one-seven-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  margin: 15px;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-seven div.one-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.one td.one-eight div.one-eight-container {
   width: 100%;
@@ -433,17 +418,17 @@ section.section-two div.table table tr.one td.one-eight div.one-eight-container 
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.one td.one-eight div.one-eight-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.two {
-  border-bottom: 0.6px solid #bdbdbd;
+  height: 100px;
+  border-top: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.two td.two-one div.two-one-container {
   width: 100%;
@@ -452,15 +437,14 @@ section.section-two div.table table tr.two td.two-one div.two-one-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.two td.two-one div.two-one-container p {
+section.section-two div.table table tr.two td.two-one div.two-one-container span {
+  font-family: Inter;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: #828282;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.two td.two-two div.two-two-container {
   width: 100%;
@@ -469,42 +453,35 @@ section.section-two div.table table tr.two td.two-two div.two-two-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.two td.two-two div.two-two-container img {
-  width: 24px;
-  height: 24px;
-}
-section.section-two div.table table tr.two td.two-two div.two-two-container p {
-  text-align: center;
-  font-size: 1.1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.two td.two-two div.two-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.two td.two-three div.two-three {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.two td.two-three div.two-three p {
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text span.bitcoin {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.two td.two-two div.two-two-container div.two-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+section.section-two div.table table tr.two td.two-three div.two-three-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.two td.two-four div.two-four-container {
   width: 100%;
@@ -513,18 +490,12 @@ section.section-two div.table table tr.two td.two-four div.two-four-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.two td.two-four div.two-four-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.two td.two-four div.two-four-container p {
-  font-size: 1.1rem;
+section.section-two div.table table tr.two td.two-four div.two-four-container span {
   font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.two td.two-five div.two-five-container {
@@ -534,18 +505,12 @@ section.section-two div.table table tr.two td.two-five div.two-five-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.two td.two-five div.two-five-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.two td.two-five div.two-five-container p {
+section.section-two div.table table tr.two td.two-five div.two-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.two td.two-six div.two-six-container {
@@ -555,16 +520,13 @@ section.section-two div.table table tr.two td.two-six div.two-six-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.two td.two-six div.two-six-container p {
+  font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.two td.two-seven div.two-seven-container {
   width: 100%;
@@ -572,22 +534,22 @@ section.section-two div.table table tr.two td.two-seven div.two-seven-container 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.two td.two-seven div.two-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.two td.two-seven div.two-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.two td.two-eight div.two-eight-container {
   width: 100%;
@@ -596,14 +558,9 @@ section.section-two div.table table tr.two td.two-eight div.two-eight-container 
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.two td.two-eight div.two-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 section.section-two div.table table tr.three {
+  height: 100px;
   border-top: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.three td.three-one div.three-one-container {
@@ -613,15 +570,14 @@ section.section-two div.table table tr.three td.three-one div.three-one-containe
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.three td.three-one div.three-one-container p {
-  font-family: "Inter", sans-serif;
+section.section-two div.table table tr.three td.three-one div.three-one-container span {
+  font-family: Inter;
   font-size: 1rem;
   font-weight: 400;
-  color: #828282;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.three td.three-two div.three-two-container {
   width: 100%;
@@ -630,37 +586,35 @@ section.section-two div.table table tr.three td.three-two div.three-two-containe
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.three td.three-two div.three-two-container p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.three td.three-two div.three-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.three td.three-three div.three-three-container {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 15px;
-  padding: 5px;
+  gap: 3px;
+}
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text span.etherium {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.three td.three-two div.three-two-container div.three-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.three td.three-three div.three-three-container p {
   font-family: "Inter", sans-serif;
-  font-size: 1.17;
+  font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.three td.three-four div.three-four-container {
   width: 100%;
@@ -669,14 +623,12 @@ section.section-two div.table table tr.three td.three-four div.three-four-contai
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.three td.three-four div.three-four-container p {
+section.section-two div.table table tr.three td.three-four div.three-four-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #ff1a1a;
 }
 section.section-two div.table table tr.three td.three-five div.three-five-container {
@@ -686,31 +638,28 @@ section.section-two div.table table tr.three td.three-five div.three-five-contai
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.three td.three-five div.three-five-container p {
+section.section-two div.table table tr.three td.three-five div.three-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
-section.section-two div.table table tr.three td.three-six div.three-six {
+section.section-two div.table table tr.three td.three-six div.three-six-container {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.three td.three-six div.three-six p {
+section.section-two div.table table tr.three td.three-six div.three-six-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.three td.three-seven div.three-seven-container {
   width: 100%;
@@ -718,22 +667,22 @@ section.section-two div.table table tr.three td.three-seven div.three-seven-cont
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.three td.three-seven div.three-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.three td.three-seven div.three-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.three td.three-eight div.three-eight-container {
   width: 100%;
@@ -742,14 +691,9 @@ section.section-two div.table table tr.three td.three-eight div.three-eight-cont
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.three td.three-eight div.three-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 section.section-two div.table table tr.four {
+  height: 100px;
   border-top: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.four td.four-one div.four-one-container {
@@ -759,15 +703,14 @@ section.section-two div.table table tr.four td.four-one div.four-one-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  gap: 10px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.four td.four-one div.four-one-container p {
+section.section-two div.table table tr.four td.four-one div.four-one-container span {
+  font-family: Inter;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: #828282;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.four td.four-two div.four-two-container {
   width: 100%;
@@ -776,41 +719,39 @@ section.section-two div.table table tr.four td.four-two div.four-two-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.four td.four-two div.four-two-container img {
-  width: 24px;
-  height: 24px;
-}
-section.section-two div.table table tr.four td.four-two div.four-two-container p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.four td.four-two div.four-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.four td.four-three div.four-three-container {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
+}
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text span.cardano {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.four td.four-two div.four-two-container div.four-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.four td.four-three div.four-three-container p {
   font-family: "Inter", sans-serif;
-  font-size: 1.17;
+  font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.four td.four-four div.four-four-container {
   width: 100%;
@@ -819,14 +760,12 @@ section.section-two div.table table tr.four td.four-four div.four-four-container
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.four td.four-four div.four-four-container p {
+section.section-two div.table table tr.four td.four-four div.four-four-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #ff1a1a;
 }
 section.section-two div.table table tr.four td.four-five div.four-five-container {
@@ -836,14 +775,12 @@ section.section-two div.table table tr.four td.four-five div.four-five-container
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.four td.four-five div.four-five-container p {
+section.section-two div.table table tr.four td.four-five div.four-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #ff1a1a;
 }
 section.section-two div.table table tr.four td.four-six div.four-six-container {
@@ -853,14 +790,13 @@ section.section-two div.table table tr.four td.four-six div.four-six-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.four td.four-six div.four-six-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.four td.four-seven div.four-seven-container {
   width: 100%;
@@ -868,22 +804,22 @@ section.section-two div.table table tr.four td.four-seven div.four-seven-contain
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.four td.four-seven div.four-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.four td.four-seven div.four-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.four td.four-eight div.four-eight-container {
   width: 100%;
@@ -892,14 +828,9 @@ section.section-two div.table table tr.four td.four-eight div.four-eight-contain
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.four td.four-eight div.four-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 section.section-two div.table table tr.five {
+  height: 100px;
   border-top: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.five td.five-one div.five-one-container {
@@ -909,15 +840,14 @@ section.section-two div.table table tr.five td.five-one div.five-one-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.five td.five-one div.five-one-container p {
+section.section-two div.table table tr.five td.five-one div.five-one-container span {
+  font-family: Inter;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: #828282;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.five td.five-two div.five-two-container {
   width: 100%;
@@ -926,42 +856,35 @@ section.section-two div.table table tr.five td.five-two div.five-two-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.five td.five-two div.five-two-container img {
-  width: 24px;
-  height: 24px;
-}
-section.section-two div.table table tr.five td.five-two div.five-two-container p {
-  text-align: center;
-  font-size: 1.1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.five td.five-two div.five-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.five td.five-three div.five-three {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.five td.five-three div.five-three p {
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text span.tether {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.five td.five-two div.five-two-container div.five-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
+}
+section.section-two div.table table tr.five td.five-three div.five-three-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.five td.five-four div.five-four-container {
   width: 100%;
@@ -970,18 +893,12 @@ section.section-two div.table table tr.five td.five-four div.five-four-container
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.five td.five-four div.five-four-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.five td.five-four div.five-four-container p {
-  font-size: 1.1rem;
+section.section-two div.table table tr.five td.five-four div.five-four-container span {
   font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.five td.five-five div.five-five-container {
@@ -991,18 +908,12 @@ section.section-two div.table table tr.five td.five-five div.five-five-container
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.five td.five-five div.five-five-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.five td.five-five div.five-five-container p {
+section.section-two div.table table tr.five td.five-five div.five-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.five td.five-six div.five-six-container {
@@ -1012,16 +923,13 @@ section.section-two div.table table tr.five td.five-six div.five-six-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.five td.five-six div.five-six-container p {
+  font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.five td.five-seven div.five-seven-container {
   width: 100%;
@@ -1029,22 +937,22 @@ section.section-two div.table table tr.five td.five-seven div.five-seven-contain
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.five td.five-seven div.five-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.five td.five-seven div.five-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.five td.five-eight div.five-eight-container {
   width: 100%;
@@ -1053,14 +961,9 @@ section.section-two div.table table tr.five td.five-eight div.five-eight-contain
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.five td.five-eight div.five-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 section.section-two div.table table tr.six {
+  height: 100px;
   border-top: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.six td.six-one div.six-one-container {
@@ -1070,15 +973,14 @@ section.section-two div.table table tr.six td.six-one div.six-one-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  gap: 10px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.six td.six-one div.six-one-container p {
+section.section-two div.table table tr.six td.six-one div.six-one-container span {
+  font-family: Inter;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: #828282;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.six td.six-two div.six-two-container {
   width: 100%;
@@ -1087,41 +989,39 @@ section.section-two div.table table tr.six td.six-two div.six-two-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.six td.six-two div.six-two-container img {
-  width: 24px;
-  height: 24px;
-}
-section.section-two div.table table tr.six td.six-two div.six-two-container p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.six td.six-two div.six-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.six td.six-three div.six-three-container {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
+}
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text span.avalanche {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.six td.six-two div.six-two-container div.six-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.six td.six-three div.six-three-container p {
   font-family: "Inter", sans-serif;
-  font-size: 1.17;
+  font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.six td.six-four div.six-four-container {
   width: 100%;
@@ -1130,14 +1030,12 @@ section.section-two div.table table tr.six td.six-four div.six-four-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.six td.six-four div.six-four-container p {
+section.section-two div.table table tr.six td.six-four div.six-four-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #ff1a1a;
 }
 section.section-two div.table table tr.six td.six-five div.six-five-container {
@@ -1147,14 +1045,12 @@ section.section-two div.table table tr.six td.six-five div.six-five-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.six td.six-five div.six-five-container p {
+section.section-two div.table table tr.six td.six-five div.six-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #ff1a1a;
 }
 section.section-two div.table table tr.six td.six-six div.six-six-container {
@@ -1164,14 +1060,13 @@ section.section-two div.table table tr.six td.six-six div.six-six-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.six td.six-six div.six-six-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.six td.six-seven div.six-seven-container {
   width: 100%;
@@ -1179,22 +1074,22 @@ section.section-two div.table table tr.six td.six-seven div.six-seven-container 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.six td.six-seven div.six-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.six td.six-seven div.six-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.six td.six-eight div.six-eight-container {
   width: 100%;
@@ -1203,16 +1098,10 @@ section.section-two div.table table tr.six td.six-eight div.six-eight-container 
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.six td.six-eight div.six-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 section.section-two div.table table tr.seven {
+  height: 100px;
   border-top: 0.6px solid #bdbdbd;
-  border-bottom: 0.6px solid #bdbdbd;
 }
 section.section-two div.table table tr.seven td.seven-one div.seven-one-container {
   width: 100%;
@@ -1221,15 +1110,14 @@ section.section-two div.table table tr.seven td.seven-one div.seven-one-containe
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
 }
-section.section-two div.table table tr.seven td.seven-one div.seven-one-container p {
+section.section-two div.table table tr.seven td.seven-one div.seven-one-container span {
+  font-family: Inter;
   font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  color: #828282;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.seven td.seven-two div.seven-two-container {
   width: 100%;
@@ -1238,42 +1126,35 @@ section.section-two div.table table tr.seven td.seven-two div.seven-two-containe
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  gap: 5px;
 }
-section.section-two div.table table tr.seven td.seven-two div.seven-two-container img {
-  width: 24px;
-  height: 24px;
-}
-section.section-two div.table table tr.seven td.seven-two div.seven-two-container p {
-  text-align: center;
-  font-size: 1.1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-}
-section.section-two div.table table tr.seven td.seven-two div.seven-two-container span {
-  font-size: 0.9rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #828282;
-}
-section.section-two div.table table tr.seven td.seven-three div.seven-three-container {
-  width: 100%;
-  height: 100%;
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
+  gap: 3px;
+}
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text span.tether {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+section.section-two div.table table tr.seven td.seven-two div.seven-two-container div.seven-two-text span {
+  font-family: Open Sans;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.seven td.seven-three div.seven-three-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.seven td.seven-four div.seven-four-container {
   width: 100%;
@@ -1282,18 +1163,12 @@ section.section-two div.table table tr.seven td.seven-four div.seven-four-contai
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.seven td.seven-four div.seven-four-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.seven td.seven-four div.seven-four-container p {
-  font-size: 1.1rem;
+section.section-two div.table table tr.seven td.seven-four div.seven-four-container span {
   font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.seven td.seven-five div.seven-five-container {
@@ -1303,18 +1178,12 @@ section.section-two div.table table tr.seven td.seven-five div.seven-five-contai
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  padding: 5px;
-  margin: 15px;
 }
-section.section-two div.table table tr.seven td.seven-five div.seven-five-container img {
-  width: 6.41px;
-  height: 6px;
-}
-section.section-two div.table table tr.seven td.seven-five div.seven-five-container p {
+section.section-two div.table table tr.seven td.seven-five div.seven-five-container span {
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+  text-align: left;
   color: #1aff7c;
 }
 section.section-two div.table table tr.seven td.seven-six div.seven-six-container {
@@ -1324,16 +1193,13 @@ section.section-two div.table table tr.seven td.seven-six div.seven-six-containe
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
 }
 section.section-two div.table table tr.seven td.seven-six div.seven-six-container p {
+  font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
-  font-weight: 500;
-  font-family: "Inter", sans-serif;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container {
   width: 100%;
@@ -1341,22 +1207,22 @@ section.section-two div.table table tr.seven td.seven-seven div.seven-seven-cont
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-  margin: 15px;
+  align-items: flex-end;
+  gap: 3px;
 }
 section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container p {
   font-family: "Inter", sans-serif;
   font-size: 1.17rem;
   font-weight: 500;
   color: #ffffff;
+  text-align: center;
 }
 section.section-two div.table table tr.seven td.seven-seven div.seven-seven-container span {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #828282;
+  text-align: left;
 }
 section.section-two div.table table tr.seven td.seven-eight div.seven-eight-container {
   width: 100%;
@@ -1365,269 +1231,150 @@ section.section-two div.table table tr.seven td.seven-eight div.seven-eight-cont
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  margin: 15px;
-}
-section.section-two div.table table tr.seven td.seven-eight div.seven-eight-container img {
-  width: 123px;
-  height: 29.27px;
 }
 @media (max-width: 375px) {
+  section.section-two {
+    height: 800px;
+  }
   section.section-two div.table {
-    width: 90%;
-    height: 80%;
+    width: 100%;
   }
   section.section-two div.table div.today {
     width: 100%;
+    text-align: center;
   }
   section.section-two div.table div.today p {
-    font-size: 1.67rem;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   section.section-two div.table table {
     width: 100%;
-    height: 100%;
-    display: block;
-  }
-  section.section-two div.table table tr.one {
-    width: 100%;
-    border-top-width: 1px;
   }
   section.section-two div.table table tr.one td.one-one {
     display: none;
   }
-  section.section-two div.table table tr.one td.one-one div.one-one {
-    display: none;
-  }
-  section.section-two div.table table tr.one td.one-two {
-    display: inline-block;
-    box-sizing: border-box;
-    flex-grow: 4;
-  }
   section.section-two div.table table tr.one td.one-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.one td.one-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.one td.one-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.one td.one-six {
-    display: none;
-  }
-  section.section-two div.table table tr.one td.one-seven {
-    display: inline-block;
-    box-sizing: border-box;
-    flex-grow: 4;
+    visibility: hidden;
   }
   section.section-two div.table table tr.one td.one-eight {
     display: none;
   }
-  section.section-two div.table table tr.two {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid red;
-    box-sizing: content-box;
-  }
   section.section-two div.table table tr.two td.two-one {
     display: none;
   }
-  section.section-two div.table table tr.two td.two-one div.two-one-container {
-    display: none;
-  }
-  section.section-two div.table table tr.two td.two-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.two td.two-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.two td.two-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.two td.two-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.two td.two-six {
-    display: none;
-  }
-  section.section-two div.table table tr.two td.two-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.two td.two-eight {
     display: none;
   }
-  section.section-two div.table table tr.three {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 120px;
-    border-top: none;
-  }
   section.section-two div.table table tr.three td.three-one {
     display: none;
   }
-  section.section-two div.table table tr.three td.three-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.three td.three-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.three td.three-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.three td.three-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.three td.three-six {
-    display: none;
-  }
-  section.section-two div.table table tr.three td.three-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.three td.three-eight {
     display: none;
   }
-  section.section-two div.table table tr.four {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 120px;
-    border-top: none;
-  }
   section.section-two div.table table tr.four td.four-one {
     display: none;
   }
-  section.section-two div.table table tr.four td.four-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.four td.four-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.four td.four-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.four td.four-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.four td.four-six {
-    display: none;
-  }
-  section.section-two div.table table tr.four td.four-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.four td.four-eight {
     display: none;
   }
-  section.section-two div.table table tr.five {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 120px;
-    border-top: none;
-  }
   section.section-two div.table table tr.five td.five-one {
     display: none;
   }
-  section.section-two div.table table tr.five td.five-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.five td.five-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.five td.five-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.five td.five-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.five td.five-six {
-    display: none;
-  }
-  section.section-two div.table table tr.five td.five-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.five td.five-eight {
     display: none;
   }
-  section.section-two div.table table tr.six {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 120px;
-    border-top: none;
-  }
   section.section-two div.table table tr.six td.six-one {
     display: none;
   }
-  section.section-two div.table table tr.six td.six-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.six td.six-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.six td.six-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.six td.six-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.six td.six-six {
-    display: none;
-  }
-  section.section-two div.table table tr.six td.six-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.six td.six-eight {
     display: none;
   }
-  section.section-two div.table table tr.seven {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    border-top: none;
-  }
   section.section-two div.table table tr.seven td.seven-one {
     display: none;
   }
-  section.section-two div.table table tr.seven td.seven-two {
-    display: inline-block;
-    box-sizing: border-box;
-  }
   section.section-two div.table table tr.seven td.seven-three {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.seven td.seven-four {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.seven td.seven-five {
-    display: none;
+    visibility: hidden;
   }
   section.section-two div.table table tr.seven td.seven-six {
-    display: none;
-  }
-  section.section-two div.table table tr.seven td.seven-seven {
-    display: inline-block;
-    box-sizing: border-box;
+    visibility: hidden;
   }
   section.section-two div.table table tr.seven td.seven-eight {
     display: none;
@@ -2171,7 +1918,7 @@ section.section-six form input {
 section.section-six form button {
   position: absolute;
   right: 0;
-  transform: translate(-60%);
+  transform: translate(-63%);
   width: 139px;
   height: 62px;
   background-color: #eb5757;
@@ -2217,7 +1964,7 @@ section.section-six form button p {
   section.section-six form button {
     width: 130px;
     height: 40px;
-    transform: translate(-12%);
+    transform: translate(-14%);
   }
   section.section-six form button p {
     font-size: 1.2rem;
