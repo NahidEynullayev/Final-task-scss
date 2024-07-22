@@ -173,6 +173,30 @@ section.section-one .section-one-main div.section-one-main-container img.scrool 
   transform: translate(-50%);
 }
 @media (max-width: 375px) {
+  section.section-two div.table tr td{
+    /* visibility: hidden;
+     */
+     display: none;
+  }
+  section.section-two div.table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  tbody tr:first-child td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  section.section-two div.table tr td:nth-child(2),  section.section-two div.table tr td:nth-child(7) {
+    display: flex;
+    width: 50%;
+  }
+  .two-two-container{
+    justify-content: flex-start;
+  }
   section.section-one {
     background-image: none;
     height: 400px;
@@ -313,6 +337,7 @@ section.section-two div.table table tr.one {
   border-top: 0.6px solid #bdbdbd;
   height: 50px;
 }
+
 section.section-two div.table table tr.one td.one-one div.one-one-container {
   display: flex;
   flex-direction: row;
@@ -446,12 +471,19 @@ section.section-two div.table table tr.two td.two-one div.two-one-container span
   color: #ffffff;
   text-align: center;
 }
+section div.table table tr td div{
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+
+  
+}
 section.section-two div.table table tr.two td.two-two div.two-two-container {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 5px;
 }
@@ -2144,3 +2176,15 @@ section.section-one-repeat table.two tr {
 section.section-one-repeat table.two tr td.sil {
   display: none;
 }/*# sourceMappingURL=index.css.map */
+
+
+
+@media (min-width: 375px) and (max-width: 1024px) {
+   section.section-two div.table tr td:nth-child(2),  section.section-two div.table tr td:nth-child(7) {
+    display: flex;
+    width: 50%;
+  }
+  .two-two-container{
+    justify-content: flex-start;
+  }
+}

@@ -34,9 +34,11 @@ section.section-two {
     table {
       border-collapse: collapse;
       width: 100%;
+
       tr.one {
         border-top: 0.6px solid #bdbdbd;
         height: 50px;
+
         td.one-one {
           div.one-one-container {
             @include dynamic-flex-row;
@@ -52,11 +54,13 @@ section.section-two {
             }
           }
         }
+
         td.one-two {
           div.one-two-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -66,11 +70,13 @@ section.section-two {
             }
           }
         }
+
         td.one-three {
           div.one-three-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -80,11 +86,13 @@ section.section-two {
             }
           }
         }
+
         td.one-four {
           div.one-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -94,11 +102,13 @@ section.section-two {
             }
           }
         }
+
         td.one-five {
           div.one-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -108,12 +118,14 @@ section.section-two {
             }
           }
         }
+
         td.one-six {
           div.one-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -123,6 +135,7 @@ section.section-two {
             }
           }
         }
+
         td.one-seven {
           div.one-seven-container {
             p {
@@ -134,11 +147,13 @@ section.section-two {
             }
           }
         }
+
         td.one-eight {
           div.one-eight-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -149,15 +164,18 @@ section.section-two {
           }
         }
       }
+
       tr.two {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.two-one {
           div.two-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -167,6 +185,7 @@ section.section-two {
             }
           }
         }
+
         td.two-two {
           div.two-two-container {
             width: 100%;
@@ -177,6 +196,7 @@ section.section-two {
             div.two-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.bitcoin {
                 font-family: Open Sans;
                 font-size: 1.1rem;
@@ -184,6 +204,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -195,6 +216,7 @@ section.section-two {
             }
           }
         }
+
         td.two-three {
           div.two-three-container {
             p {
@@ -207,11 +229,13 @@ section.section-two {
             }
           }
         }
+
         td.two-four {
           div.two-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -221,11 +245,13 @@ section.section-two {
             }
           }
         }
+
         td.two-five {
           div.two-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -235,11 +261,13 @@ section.section-two {
             }
           }
         }
+
         td.two-six {
           div.two-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -249,6 +277,7 @@ section.section-two {
             }
           }
         }
+
         td.two-seven {
           div.two-seven-container {
             width: 100%;
@@ -263,6 +292,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -272,6 +302,7 @@ section.section-two {
             }
           }
         }
+
         td.two-eight {
           div.two-eight-container {
             width: 100%;
@@ -280,15 +311,18 @@ section.section-two {
           }
         }
       }
+
       tr.three {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.three-one {
           div.three-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -298,6 +332,7 @@ section.section-two {
             }
           }
         }
+
         td.three-two {
           div.three-two-container {
             width: 100%;
@@ -308,6 +343,7 @@ section.section-two {
             div.three-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.etherium {
                 font-family: Open Sans;
                 font-size: 1.1rem;
@@ -315,6 +351,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -326,6 +363,7 @@ section.section-two {
             }
           }
         }
+
         td.three-three {
           div.three-three-container {
             p {
@@ -338,11 +376,13 @@ section.section-two {
             }
           }
         }
+
         td.three-four {
           div.three-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -352,11 +392,13 @@ section.section-two {
             }
           }
         }
+
         td.three-five {
           div.three-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -366,11 +408,13 @@ section.section-two {
             }
           }
         }
+
         td.three-six {
           div.three-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -380,6 +424,7 @@ section.section-two {
             }
           }
         }
+
         td.three-seven {
           div.three-seven-container {
             width: 100%;
@@ -394,6 +439,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -403,6 +449,7 @@ section.section-two {
             }
           }
         }
+
         td.three-eight {
           div.three-eight-container {
             width: 100%;
@@ -415,12 +462,14 @@ section.section-two {
       tr.four {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.four-one {
           div.four-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -430,6 +479,7 @@ section.section-two {
             }
           }
         }
+
         td.four-two {
           div.four-two-container {
             width: 100%;
@@ -440,6 +490,7 @@ section.section-two {
             div.four-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.cardano {
                 @include dynamic-flex-row;
                 font-family: Open Sans;
@@ -448,6 +499,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -459,6 +511,7 @@ section.section-two {
             }
           }
         }
+
         td.four-three {
           div.four-three-container {
             p {
@@ -471,11 +524,13 @@ section.section-two {
             }
           }
         }
+
         td.four-four {
           div.four-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -485,11 +540,13 @@ section.section-two {
             }
           }
         }
+
         td.four-five {
           div.four-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -499,11 +556,13 @@ section.section-two {
             }
           }
         }
+
         td.four-six {
           div.four-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -513,6 +572,7 @@ section.section-two {
             }
           }
         }
+
         td.four-seven {
           div.four-seven-container {
             width: 100%;
@@ -527,6 +587,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -536,6 +597,7 @@ section.section-two {
             }
           }
         }
+
         td.four-eight {
           div.four-eight-container {
             width: 100%;
@@ -548,12 +610,14 @@ section.section-two {
       tr.five {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.five-one {
           div.five-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -563,6 +627,7 @@ section.section-two {
             }
           }
         }
+
         td.five-two {
           div.five-two-container {
             width: 100%;
@@ -573,6 +638,7 @@ section.section-two {
             div.five-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.tether {
                 font-family: Open Sans;
                 font-size: 1.1rem;
@@ -580,6 +646,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -591,6 +658,7 @@ section.section-two {
             }
           }
         }
+
         td.five-three {
           div.five-three-container {
             p {
@@ -603,11 +671,13 @@ section.section-two {
             }
           }
         }
+
         td.five-four {
           div.five-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -617,11 +687,13 @@ section.section-two {
             }
           }
         }
+
         td.five-five {
           div.five-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -631,11 +703,13 @@ section.section-two {
             }
           }
         }
+
         td.five-six {
           div.five-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -645,6 +719,7 @@ section.section-two {
             }
           }
         }
+
         td.five-seven {
           div.five-seven-container {
             width: 100%;
@@ -659,6 +734,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -668,6 +744,7 @@ section.section-two {
             }
           }
         }
+
         td.five-eight {
           div.five-eight-container {
             width: 100%;
@@ -680,12 +757,14 @@ section.section-two {
       tr.six {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.six-one {
           div.six-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -695,6 +774,7 @@ section.section-two {
             }
           }
         }
+
         td.six-two {
           div.six-two-container {
             width: 100%;
@@ -705,6 +785,7 @@ section.section-two {
             div.six-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.avalanche {
                 @include dynamic-flex-row;
                 font-family: Open Sans;
@@ -713,6 +794,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -724,6 +806,7 @@ section.section-two {
             }
           }
         }
+
         td.six-three {
           div.six-three-container {
             p {
@@ -736,11 +819,13 @@ section.section-two {
             }
           }
         }
+
         td.six-four {
           div.six-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -750,11 +835,13 @@ section.section-two {
             }
           }
         }
+
         td.six-five {
           div.six-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -764,11 +851,13 @@ section.section-two {
             }
           }
         }
+
         td.six-six {
           div.six-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -778,6 +867,7 @@ section.section-two {
             }
           }
         }
+
         td.six-seven {
           div.six-seven-container {
             width: 100%;
@@ -792,6 +882,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -801,6 +892,7 @@ section.section-two {
             }
           }
         }
+
         td.six-eight {
           div.six-eight-container {
             width: 100%;
@@ -813,12 +905,14 @@ section.section-two {
       tr.seven {
         height: 100px;
         border-top: 0.6px solid #bdbdbd;
+
         td.seven-one {
           div.seven-one-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
             gap: 3px;
+
             span {
               font-family: Inter;
               font-size: 1rem;
@@ -828,6 +922,7 @@ section.section-two {
             }
           }
         }
+
         td.seven-two {
           div.seven-two-container {
             width: 100%;
@@ -838,6 +933,7 @@ section.section-two {
             div.seven-two-text {
               @include dynamic-flex-row;
               gap: 3px;
+
               span.tether {
                 font-family: Open Sans;
                 font-size: 1.1rem;
@@ -845,6 +941,7 @@ section.section-two {
                 color: $white;
                 text-align: left;
               }
+
               span {
                 font-family: Open Sans;
                 font-size: 0.9rem;
@@ -856,6 +953,7 @@ section.section-two {
             }
           }
         }
+
         td.seven-three {
           div.seven-three-container {
             p {
@@ -868,11 +966,13 @@ section.section-two {
             }
           }
         }
+
         td.seven-four {
           div.seven-four-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -882,11 +982,13 @@ section.section-two {
             }
           }
         }
+
         td.seven-five {
           div.seven-five-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             span {
               font-family: $Inter;
               font-size: 1.1rem;
@@ -896,11 +998,13 @@ section.section-two {
             }
           }
         }
+
         td.seven-six {
           div.seven-six-container {
             width: 100%;
             height: 100%;
             @include dynamic-flex-row;
+
             p {
               font-family: $Inter;
               font-size: 1.17rem;
@@ -910,6 +1014,7 @@ section.section-two {
             }
           }
         }
+
         td.seven-seven {
           div.seven-seven-container {
             width: 100%;
@@ -924,6 +1029,7 @@ section.section-two {
               color: $white;
               text-align: center;
             }
+
             span {
               font-family: $Inter;
               font-size: 0.9rem;
@@ -933,6 +1039,7 @@ section.section-two {
             }
           }
         }
+
         td.seven-eight {
           div.seven-eight-container {
             width: 100%;
@@ -946,19 +1053,23 @@ section.section-two {
 
   @include iphone-13-1 {
     height: 800px;
+
     div.table {
       width: 100%;
 
       div.today {
         width: 100%;
         text-align: center;
+
         p {
           font-size: 1.7rem;
           @include dynamic-flex-row;
         }
       }
+
       table {
         width: 100%;
+
         tr.one {
           td.one-one {
             display: none;
@@ -967,15 +1078,19 @@ section.section-two {
           td.one-three {
             visibility: hidden;
           }
+
           td.one-four {
             visibility: hidden;
           }
+
           td.one-five {
             visibility: hidden;
           }
+
           td.one-six {
             visibility: hidden;
           }
+
           td.one-eight {
             display: none;
           }
@@ -989,15 +1104,19 @@ section.section-two {
           td.two-three {
             visibility: hidden;
           }
+
           td.two-four {
             visibility: hidden;
           }
+
           td.two-five {
             visibility: hidden;
           }
+
           td.two-six {
             visibility: hidden;
           }
+
           td.two-eight {
             display: none;
           }
@@ -1011,15 +1130,19 @@ section.section-two {
           td.three-three {
             visibility: hidden;
           }
+
           td.three-four {
             visibility: hidden;
           }
+
           td.three-five {
             visibility: hidden;
           }
+
           td.three-six {
             visibility: hidden;
           }
+
           td.three-eight {
             display: none;
           }
@@ -1033,15 +1156,19 @@ section.section-two {
           td.four-three {
             visibility: hidden;
           }
+
           td.four-four {
             visibility: hidden;
           }
+
           td.four-five {
             visibility: hidden;
           }
+
           td.four-six {
             visibility: hidden;
           }
+
           td.four-eight {
             display: none;
           }
@@ -1055,19 +1182,24 @@ section.section-two {
           td.five-three {
             visibility: hidden;
           }
+
           td.five-four {
             visibility: hidden;
           }
+
           td.five-five {
             visibility: hidden;
           }
+
           td.five-six {
             visibility: hidden;
           }
+
           td.five-eight {
             display: none;
           }
         }
+
         tr.six {
           td.six-one {
             display: none;
@@ -1076,15 +1208,19 @@ section.section-two {
           td.six-three {
             visibility: hidden;
           }
+
           td.six-four {
             visibility: hidden;
           }
+
           td.six-five {
             visibility: hidden;
           }
+
           td.six-six {
             visibility: hidden;
           }
+
           td.six-eight {
             display: none;
           }
@@ -1098,20 +1234,32 @@ section.section-two {
           td.seven-three {
             visibility: hidden;
           }
+
           td.seven-four {
             visibility: hidden;
           }
+
           td.seven-five {
             visibility: hidden;
           }
+
           td.seven-six {
             visibility: hidden;
           }
+
           td.seven-eight {
             display: none;
           }
         }
       }
     }
+  }
+}
+
+@media (max-width: 375px) {
+  section.section-two div.table table tr.two td.two-two div.two-two-container {
+    display: flex;
+    justify-content: flex-start !important;
+
   }
 }
